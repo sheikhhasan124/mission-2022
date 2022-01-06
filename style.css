@@ -10,7 +10,7 @@ body{
 }
 .flexible-item{
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .items-width{
     width: 40%;
@@ -20,9 +20,7 @@ body{
 .items-width img{
     width: 70%;
 }
-.orange-color{
-    color: orange;
-}
+
 .golden-color{
     color: rgb(94, 81, 8);
 }
@@ -44,7 +42,7 @@ body{
     font-size: 35px;
     font-family: 'Libre Baskerville', serif;
 }
-.border-img{
+#border-img{
     border-left: 3px solid;
      border-image: linear-gradient(tomato,orange);
     border-image-slice: 1;
@@ -165,5 +163,8 @@ body{
     font-family: 'Lobster Two', cursive;
     letter-spacing: 5px;
   }
+  .orange-color{
+    color: orange;
+}
 /* footer star here */
   

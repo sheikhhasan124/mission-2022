@@ -7,6 +7,7 @@ body{
     padding: 0;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(216, 207, 207); 
+    text-align: justify;
 }
 .flexible-item{
     display: flex;
@@ -22,6 +23,11 @@ body{
 }
 .items-width img{
     width: 70%;
+    
+}
+.item-img{
+    position: relative;
+    left: 90px;
 }
 
 .golden-color{
@@ -177,6 +183,7 @@ body{
           justify-content: center;
           align-items: center;
       }
+
       .items-width{
           width: 80%;
           display: flex;
@@ -184,7 +191,16 @@ body{
           justify-content: center;
           align-items: center;
       }
+      .item-img{
+          position: relative;
+          left: 0;
+      }
       .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
           width: 70%;
           margin-bottom: 17px;
       }

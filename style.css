@@ -10,12 +10,15 @@ body{
 }
 .flexible-item{
     display: flex;
-    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
 }
 .items-width{
     width: 40%;
+   
     padding: 20px;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 .items-width img{
     width: 70%;
@@ -55,14 +58,13 @@ body{
     font-size: 30px;
     text-align: center;
 }
-.section-two{
-    width: 80%;
-    margin-left: 10%;
-}
+
 .card{
-    width: 27%; 
-   margin-right: 5%;
-   padding:20px 10px ;
+    width: 25%; 
+    height:300px;
+   overflow-y: hidden;
+   margin-right: 15px;
+   padding: 10px 3px ;
    box-shadow: 10px 10px 30px gray;
    border-radius: 10px;
 }
@@ -167,4 +169,23 @@ body{
     color: orange;
 }
 /* footer star here */
-  
+  /* media responsive  */
+  @media screen and (max-width:688px){
+      .flexible-item{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .items-width{
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .card{
+          width: 70%;
+          margin-bottom: 17px;
+      }
+  }
